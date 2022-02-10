@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+/* header */
+
+.ecom-header {
+  color: var(--white);
+  background: #29283d;
+}
+
+.ecom-header .icon-badge-container {
+  margin: 0;
+  color: var(--white);
+}
+
+.ecom-header .social-icon-container {
+  display: flex;
+  background: #181733;
+  padding: 1.5rem;
+  gap: 3rem;
+  border-radius: 2.4rem;
+}
+
+.ecom-header .social-icon-container .search-input {
+  border-radius: 2.4rem;
+  border: 2px solid var(--white);
+}
+
+/* .ecom-header .social-icon-container .icon-badge-container {
+  display: flex;
+}
+
+.ecom-header .social-icon-container .icon-badge {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+.ecom-header .social-icon-container .icon-badge-text {
+  position: absolute;
+  font-size: 1.2rem;
+  background-color: inherit;
+  width: 2rem;
+  border-radius: 2rem;
+  padding-right: 5rem;
+  font-weight: bolder;
+  bottom: -1.5rem;
+  left: -1rem;
+}
+
+.social-icon-container .search-input {
+  color: var(--white);
+}
+
+.ecom-header .social-icon-container .cart {
+  padding-left: 1.5rem;
+}
+
+.icon-badge > *:hover {
+  cursor: pointer;
+}
+
+.ecom-header .search .search-icon {
+  color: var(--white);
+}
+
+.ecom-home-container .logo-container p {
+  left: 11.5rem;
+  top: 6.5rem;
+  color: var(--white);
+}
+/* Home Page */
+.ecom-home-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  /* grid-auto-rows: minmax(200px, auto); */
+  grid-template-areas:
+    "header header header header header header header header"
+    "offer offer offer offer offer offer offer offer"
+    ". main main main main main main ."
+    ". section section section section section section ."
+    ". section2 section2 section2 section2 section2 section2 ."
+    ". section3 section3 section3 section3 section3 section3 ."
+    ". section4 section4 section4 section4 section4 section4 ."
+    ". section5 section5 section5 section5 section5 section5 ."
+    "footer footer footer footer footer footer footer footer";
+}
+
+.ecom-header {
+  grid-area: header;
+}
+.ecom-offer-container {
+  grid-area: offer;
+}
+.ecom-main-container {
+  grid-area: main;
+}
+
+.ecom-section-container {
+  grid-area: section;
+}
+
+.ecom-home-footer {
+  grid-area: footer;
+}
+
+.ecom-section2-container {
+  grid-area: section2;
+}
+
+.ecom-section3-container {
+  grid-area: section3;
+}
+
+.ecom-section4-container {
+  grid-area: section4;
+}
+
+.ecom-section5-container {
+  grid-area: section5;
+}
+
+/* Offer */
+.ecom-offer-container {
+  background: #fdc52c;
+  text-align: center;
+  font-weight: bolder;
+  padding: 1rem;
+}
+
+/* Main */
+
+.ecom-main-container .cover-image {
+  width: 100%;
+}
+
+.rel-c {
+  position: relative;
+}
+
+.shopping-links {
+  position: absolute;
+  color: var(--white);
+}
+
+.shopping-heading {
+  position: absolute;
+  color: var(--white);
+  font-size: 5rem;
+  font-family: "Secular One", sans-serif;
+}
+
+.barca-heading {
+  top: 4rem;
+  left: 6rem;
+}
+
+.category-heading {
+  top: 8rem;
+  left: 6rem;
+}
+
+.barca-kits {
+  top: 15rem;
+  left: 6rem;
+}
+
+.shop-now-links {
+  top: 19rem;
+  left: 6rem;
+}
+
+/* Section */
+.ecom-section-container .top-picks-heading {
+  font-size: 5rem;
+  text-align: center;
+  padding: 1rem;
+  margin: 6rem 0;
+  width: 100%;
+  border-bottom: 5px solid #cd122d;
+  font-family: "Secular One", sans-serif;
+}
+
+.product-category-container {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5px solid #cd122d;
+  padding-bottom: 6rem;
+}
+
+.category {
+  position: relative;
+}
+
+.category-img {
+  border-radius: 2rem;
+  width: 25rem;
+  height: 28rem;
+}
+
+.category > *:hover {
+  cursor: pointer;
+}
+
+.category-label {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 1rem;
+  background-color: #d4d4d8;
+  width: 85%;
+  border-radius: 2rem;
+  text-align: center;
+  opacity: 0.9;
+  /* background: transparent; */
+  /* margin: 10px; */
+}
+
+.ecom-section2-container .training-kits-img {
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.ecom-section3-container .best-sellers-img {
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.ecom-section4-container .fashion-her-img {
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.ecom-section5-container .fashion-him-img {
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.ecom-main-container > *:hover {
+  cursor: pointer;
+}
+
+.ecom-section2-container > *:hover {
+  cursor: pointer;
+}
+
+.ecom-section3-container > *:hover {
+  cursor: pointer;
+}
+
+.ecom-section4-container > *:hover {
+  cursor: pointer;
+}
+
+.ecom-section5-container > *:hover {
+  cursor: pointer;
+}
+
+/* Footer */
+.ecom-home-container .ecom-home-footer {
+  background-color: #29283d;
+  color: var(--white);
+  padding: 2rem;
+}
+.ecom-home-container .ecom-home-footer .social {
+  font-size: 3rem;
+  color: var(--white);
+}
