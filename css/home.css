@@ -10,8 +10,19 @@
 
 .ecom-header {
   color: var(--white);
-  background: var(--light-purplee);
+  background: var(--light-purple);
+  position: sticky;
+  top:0;
+  left:0;
+  z-index: var(--header-z-index);
 }
+
+.ecom-header .home-heading:hover , .shop-now-heading:hover , .logo-p:hover , .logo:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+
 
 .ecom-header .icon-badge-container {
   margin: 0;
@@ -68,6 +79,7 @@
 /* Home Page */
 .ecom-home-container {
   display: grid;
+  font-family: "Secular One", sans-serif;
   grid-template-columns: repeat(8, 1fr);
   grid-template-areas:
     "header header header header header header header header"
@@ -76,6 +88,7 @@
     ". section section section section section section ."
     ". section2 section2 section2 section2 section2 section2 ."
     ". section3 section3 section3 section3 section3 section3 ."
+    ". jersey-card jersey-card jersey-card jersey-card jersey-card jersey-card ."
     ". section4 section4 section4 section4 section4 section4 ."
     ". section5 section5 section5 section5 section5 section5 ."
     "footer footer footer footer footer footer footer footer";
@@ -107,6 +120,17 @@
 
 .ecom-section3-container {
   grid-area: section3;
+
+}
+
+.ecom-jersey-card-container{
+  grid-area: jersey-card;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 6rem;
+  border-bottom: 5px solid var(--border-red);
 }
 
 .ecom-section4-container {
@@ -123,6 +147,7 @@
   text-align: center;
   font-weight: bolder;
   padding: 1rem;
+  font-size: 1.3rem;
 }
 
 /* Main */
@@ -144,7 +169,7 @@
   position: absolute;
   color: var(--white);
   font-size: 5rem;
-  font-family: "Secular One", sans-serif;
+  
 }
 
 .barca-heading {
@@ -155,6 +180,10 @@
 .category-heading {
   top: 8rem;
   left: 6rem;
+}
+
+.shopping-heading:hover,.shop-now-links:hover,.barca-kits:hover{
+  transform: scale(1.03);
 }
 
 .barca-kits {
@@ -168,7 +197,7 @@
 }
 
 /* Section */
-.ecom-section-container .top-picks-heading {
+.ecom-home-container .top-picks-heading {
   font-size: 5rem;
   text-align: center;
   padding: 1rem;
@@ -198,11 +227,13 @@
   height: 28rem;
 }
 
-.category > *:hover {
+.category:hover {
   cursor: pointer;
+  transform: scale(1.03);
 }
 
 .category-label {
+
   position: absolute;
   bottom: 1.5rem;
   left: 50%;
@@ -241,6 +272,7 @@
 .ecom-section4-container > *:hover,
 .ecom-section5-container > *:hover {
   cursor: pointer;
+  /* transform: scale(1.03); */
 }
 
 /* Footer */
