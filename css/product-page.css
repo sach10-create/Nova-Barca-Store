@@ -30,7 +30,7 @@
   height: 38rem;
 }
 
-.ecom-product-container .ecom-header .logo-container p {
+.ecom-header .logo-container p {
   left: 11.5rem;
   top: 6.5rem;
   color: var(--white);
