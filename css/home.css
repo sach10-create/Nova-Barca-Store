@@ -17,6 +17,11 @@
   z-index: var(--header-z-index);
 }
 
+.header-container .home-link , .shopping-link{
+  text-decoration: none;
+  color : var(--white);
+}
+
 .ecom-header .home-heading:hover,
 .shop-now-heading:hover,
 .logo-p:hover,
@@ -275,13 +280,14 @@
 }
 
 /* Footer */
-.ecom-home-container .ecom-home-footer {
+.ecom-home-footer {
   background-color: var(--light-purple);
   color: var(--white);
   padding: 2rem;
+  margin-top: 2rem;
 }
 
-.ecom-home-container .ecom-home-footer .social {
+.ecom-home-footer .social {
   font-size: 3rem;
   color: var(--white);
 }
