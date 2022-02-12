@@ -12,17 +12,18 @@
   color: var(--white);
   background: var(--light-purple);
   position: sticky;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   z-index: var(--header-z-index);
 }
 
-.ecom-header .home-heading:hover , .shop-now-heading:hover , .logo-p:hover , .logo:hover {
+.ecom-header .home-heading:hover,
+.shop-now-heading:hover,
+.logo-p:hover,
+.logo:hover {
   cursor: pointer;
   transform: scale(1.03);
 }
-
-
 
 .ecom-header .icon-badge-container {
   margin: 0;
@@ -120,10 +121,9 @@
 
 .ecom-section3-container {
   grid-area: section3;
-
 }
 
-.ecom-jersey-card-container{
+.ecom-jersey-card-container {
   grid-area: jersey-card;
   display: flex;
   flex-wrap: wrap;
@@ -169,7 +169,6 @@
   position: absolute;
   color: var(--white);
   font-size: 5rem;
-  
 }
 
 .barca-heading {
@@ -182,7 +181,9 @@
   left: 6rem;
 }
 
-.shopping-heading:hover,.shop-now-links:hover,.barca-kits:hover{
+.shopping-heading:hover,
+.shop-now-links:hover,
+.barca-kits:hover {
   transform: scale(1.03);
 }
 
@@ -233,7 +234,6 @@
 }
 
 .category-label {
-
   position: absolute;
   bottom: 1.5rem;
   left: 50%;
@@ -272,7 +272,6 @@
 .ecom-section4-container > *:hover,
 .ecom-section5-container > *:hover {
   cursor: pointer;
-  /* transform: scale(1.03); */
 }
 
 /* Footer */
