@@ -17,8 +17,6 @@
 }
 
 .products {
-  display: flex;
-  flex-wrap: wrap;
   grid-area: products;
   gap: 2rem;
   margin-top: 3rem;

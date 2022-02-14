@@ -36,7 +36,6 @@
 }
 
 .ecom-header .social-icon-container {
-  display: flex;
   background: var(--dark-purple);
   padding: 1.5rem;
   gap: 3rem;

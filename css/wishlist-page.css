@@ -13,9 +13,6 @@
 
 .wishlist-products-container {
   grid-area: products;
-  display: flex;
-  flex-wrap: wrap;
-  align-self: center;
   gap: 2rem;
   margin: 2rem;
 }

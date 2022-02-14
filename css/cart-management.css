@@ -34,8 +34,6 @@
   height: auto;
   background-color: var(--off-white);
   color: var(--black);
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 2rem;
   background-color: var(--white);
   border-radius: 1rem;
