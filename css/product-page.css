@@ -22,14 +22,13 @@
   margin-top: 3rem;
   align-self: start;
 }
-/* 
-.ecom-product-container .jersey-container {
-  width: 28rem;
-  height: 38rem;
-} */
 
 .ecom-header .logo-container p {
   left: 11.5rem;
   top: 6.5rem;
   color: var(--white);
+}
+
+.ecom-product-container .form-container h3{
+  padding-right: 1rem;
 }
