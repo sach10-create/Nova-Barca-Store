@@ -81,6 +81,10 @@
   color: var(--white);
 }
 
+.ecom-header .header-container{
+  color: var(--white);
+}
+
 /* Home Page */
 .ecom-home-container {
   display: grid;
