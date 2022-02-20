@@ -3,7 +3,7 @@ const novaLogo = document.querySelectorAll(".logo");
 
 console.log(themeIcon);
 const getCurrentTheme = () => {
-  let theme = window.matchMedia("(prefers-color-scheme): light").matches
+  let theme = window.matchMedia("(prefers-color-scheme): dark").matches
     ? "dark"
     : "light";
   localStorage.getItem("nova.theme")
@@ -31,16 +31,4 @@ const loadTheme = (theme) => {
   root.setAttribute("color-scheme", `${theme}`);
 };
 
-themeIcon.addEventListener("click", () => {
-  let theme = getCurrentTheme();
-  if (theme === "dark") {
-    theme = "light";
-  } else {
-    theme = "dark";
-  }
-  localStorage.setItem("nova.theme", `${theme}`);
-  loadTheme(theme);
-});
-window.addEventListener("DOMContentLoaded", () => {
-  loadTheme(getCurrentTheme());
-});
+loadTheme("light");
