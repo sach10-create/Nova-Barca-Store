@@ -15,19 +15,6 @@ const getCurrentTheme = () => {
 
 const loadTheme = (theme) => {
   const root = document.querySelector(":root");
-  if (theme === "light") {
-    themeIcon.classList.remove("fa-sun");
-    themeIcon.classList.add("fa-moon");
-    novaLogo.forEach((item) => {
-      item.src = "../../../components/assets/nova-logo-light.png";
-    });
-  } else {
-    themeIcon.classList.remove("fa-moon");
-    themeIcon.classList.add("fa-sun");
-    novaLogo.forEach((item) => {
-      item.src = "../../../components/assets/nova-logo-dark.png";
-    });
-  }
   root.setAttribute("color-scheme", `${theme}`);
 };
 
