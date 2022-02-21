@@ -1,0 +1,32 @@
+.ecom-product-container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "side-nav products"
+    "side-nav products"
+    "side-nav products"
+    "side-nav products "
+    "footer footer";
+  font-family: "Secular One", sans-serif;
+}
+
+.side-nav {
+  grid-area: side-nav;
+  margin: 3rem;
+  font-size: 1.5rem;
+}
+
+.products {
+  grid-area: products;
+  gap: 2rem;
+  margin-top: 3rem;
+  align-self: start;
+}
+
+.ecom-header .logo-container p {
+  color: var(--white);
+}
+
+.ecom-product-container .form-container h3 {
+  padding-right: 1rem;
+}

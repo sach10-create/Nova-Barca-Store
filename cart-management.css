@@ -1,0 +1,23 @@
+.ecom-cart-container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "heading"
+    "products"
+    "products"
+    "products"
+    "products"
+    "footer";
+  font-family: "Secular One", sans-serif;
+}
+
+.cart-manage-container {
+  grid-area: products;
+  margin: auto;
+}
+
+.cart-heading {
+  font-size: 3rem;
+  grid-area: heading;
+  margin: 2rem 0 0 2rem;
+}

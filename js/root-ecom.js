@@ -1,7 +1,5 @@
 const themeIcon = document.querySelector(".theme-icon");
-const novaLogo = document.querySelectorAll(".logo");
 
-console.log(themeIcon);
 const getCurrentTheme = () => {
   let theme = window.matchMedia("(prefers-color-scheme): dark").matches
     ? "dark"

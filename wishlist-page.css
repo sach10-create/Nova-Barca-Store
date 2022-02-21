@@ -1,0 +1,24 @@
+.ecom-wishlist-container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "heading"
+    "products"
+    "products"
+    "products"
+    "products "
+    "footer";
+  font-family: "Secular One", sans-serif;
+}
+
+.wishlist-products-container {
+  grid-area: products;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.wishlist-heading {
+  font-size: 3rem;
+  grid-area: heading;
+  margin: 2rem;
+}
