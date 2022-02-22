@@ -23,7 +23,7 @@ A ecommerce website to buy exclusive Barcelona products.
 ✅ <a href="https://nova-barca-store.netlify.app/store/pages/login-page.html">Questions Page</a> <br/>
 ✅ <a href="https://nova-barca-store.netlify.app/store/pages/wishlist-page.html">Report Page</a> <br/>
 ✅ <a href="https://nova-barca-store.netlify.app/store/pages/cart-management.html">Report Page</a> <br/>      
-✅ <a href="https://nova-barca-store.netlify.app/store/pages/single-product-page.html">Report Page</a> <br/>   
+✅ <a href="https://nova-barca-store.netlify.app/store/pages/single-product-page.html">Single product Page</a> <br/>   
 
 # Preview
 ![nova-barca-store-preview-desktop](https://user-images.githubusercontent.com/65531346/155229825-5ae34731-e5be-4208-aae7-d9ccfc383e52.gif)
