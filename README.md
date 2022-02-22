@@ -19,12 +19,12 @@ A ecommerce website to buy exclusive Barcelona products.
 # Pages
 
 ✅ <a href="https://nova-barca-store.netlify.app/">Home Page</a> <br/>
-✅ <a href="https://nova-barca-store.netlify.app/store/pages/product-page.html">Category Page</a> <br/>
-✅ <a href="https://nova-barca-store.netlify.app/store/pages/login-page.html">Questions Page</a> <br/>
-✅ <a href="https://nova-barca-store.netlify.app/store/pages/wishlist-page.html">Report Page</a> <br/>
-✅ <a href="https://nova-barca-store.netlify.app/store/pages/cart-management.html">Report Page</a> <br/>      
-✅ <a href="https://nova-barca-store.netlify.app/store/pages/single-product-page.html">Single product Page</a> <br/>   
-
+✅ <a href="https://nova-barca-store.netlify.app/store/pages/product-page.html">Product Page</a> <br/>
+✅ <a href="https://nova-barca-store.netlify.app/store/pages/login-page.html">Login Page</a> <br/>
+✅ <a href="https://nova-barca-store.netlify.app/store/pages/wishlist-page.html">Wishlist</a> <br/>
+✅ <a href="https://nova-barca-store.netlify.app/store/pages/cart-management.html">Cart Management</a> <br/>      
+✅ <a href="https://nova-barca-store.netlify.app/store/pages/single-product-page.html">Single Product page</a> <br/>  
+                                                                                     
 # Preview
 ![nova-barca-store-preview-desktop](https://user-images.githubusercontent.com/65531346/155229825-5ae34731-e5be-4208-aae7-d9ccfc383e52.gif)
 
