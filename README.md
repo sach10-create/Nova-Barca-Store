@@ -25,7 +25,7 @@ A ecommerce website to buy exclusive Barcelona products.
 ✅ <a href="https://nova-barca-store.netlify.app/store/pages/cart-management.html">Report Page</a> <br/>                                                                                                                                                
 
 # Preview
-## Deskstop![nova-barca-store-preview-desktop](https://user-images.githubusercontent.com/65531346/155229825-5ae34731-e5be-4208-aae7-d9ccfc383e52.gif)
+![nova-barca-store-preview-desktop](https://user-images.githubusercontent.com/65531346/155229825-5ae34731-e5be-4208-aae7-d9ccfc383e52.gif)
 
 # Technology Stack
 
